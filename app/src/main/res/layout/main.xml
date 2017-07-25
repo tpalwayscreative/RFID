@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/button_open"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_weight="0.46"
+            android:textColor="#0000ff"
+            android:textSize="20dp"
+            android:text="ON/OFF" />
+        <Button
+            android:id="@+id/button_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.79"
+            android:textColor="#0000ff"
+            android:textSize="20dp"
+            android:text="SCAN" />
+
+        <Button
+            android:id="@+id/button_kejianxing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:visibility="gone"
+            android:textSize="20dp"
+            android:text="DISCOVERABLE" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00" >
+            <Button
+                android:id="@+id/button_enter"
+                android:layout_width="104dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.01"
+                android:text="NEXT"
+                android:textColor="#009900"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/button_exit"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.01"
+                android:text="EXIT"
+                android:textColor="#990000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
